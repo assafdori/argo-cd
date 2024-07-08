@@ -1,7 +1,8 @@
+![codesnap](https://github.com/assafdori/argo-cd/blob/main/argo.png)
+
 # ArgoCD Application ♻️
 
-#### Commands
-
+#### Initial Setup 🚀
 ```bash
 # install ArgoCD in k8s
 kubectl create namespace argocd
@@ -16,8 +17,7 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 
 ```
 
-#### Links
-
+#### Links to Documentation 🖇️
 * Config repo: [https://github.com/assafdori/argo-cd](https://github.com/assafdori/argo-cd)
 
 * Docker repo: [https://hub.docker.com/repository/docker/asixl/argocd-app](https://hub.docker.com/repository/docker/asixl/argocd-app)
